@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F84A044B25216C75005D9EC3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A044A25216C75005D9EC3 /* Home.swift */; };
+		F84A04502521A172005D9EC3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A044F2521A172005D9EC3 /* HomeView.swift */; };
 		F86503FD25197A3800D68429 /* DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86503FC25197A3800D68429 /* DesignCodeApp.swift */; };
 		F86503FF25197A3800D68429 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86503FE25197A3800D68429 /* ContentView.swift */; };
 		F865040125197A3C00D68429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F865040025197A3C00D68429 /* Assets.xcassets */; };
 		F865040425197A3C00D68429 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F865040325197A3C00D68429 /* Preview Assets.xcassets */; };
 		F865040F25197A3C00D68429 /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865040E25197A3C00D68429 /* DesignCodeTests.swift */; };
 		F865041A25197A3C00D68429 /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F865041925197A3C00D68429 /* DesignCodeUITests.swift */; };
+		F8BE43C2251C18FC006614E9 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BE43C1251C18FC006614E9 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F84A044A25216C75005D9EC3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F84A044F2521A172005D9EC3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F86503F925197A3800D68429 /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86503FC25197A3800D68429 /* DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeApp.swift; sourceTree = "<group>"; };
 		F86503FE25197A3800D68429 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		F865041525197A3C00D68429 /* DesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F865041925197A3C00D68429 /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		F865041B25197A3C00D68429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BE43C1251C18FC006614E9 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 			children = (
 				F86503FC25197A3800D68429 /* DesignCodeApp.swift */,
 				F86503FE25197A3800D68429 /* ContentView.swift */,
+				F8BE43C1251C18FC006614E9 /* MenuView.swift */,
 				F865040025197A3C00D68429 /* Assets.xcassets */,
 				F865040525197A3C00D68429 /* Info.plist */,
 				F865040225197A3C00D68429 /* Preview Content */,
+				F84A044A25216C75005D9EC3 /* Home.swift */,
+				F84A044F2521A172005D9EC3 /* HomeView.swift */,
 			);
 			path = DesignCode;
 			sourceTree = "<group>";
@@ -260,6 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F86503FF25197A3800D68429 /* ContentView.swift in Sources */,
+				F8BE43C2251C18FC006614E9 /* MenuView.swift in Sources */,
+				F84A044B25216C75005D9EC3 /* Home.swift in Sources */,
+				F84A04502521A172005D9EC3 /* HomeView.swift in Sources */,
 				F86503FD25197A3800D68429 /* DesignCodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
